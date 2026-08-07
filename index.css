@@ -1,25 +1,16 @@
-#Interactive_Table {
-    display:grid;
+.grid_container_main {
+    grid-template-columns: repeat(18, minmax(0,1fr));
+    grid-template-rows: repeat(6, minmax(0, 300px));
 }
-#Main_Elements{
-    grid-template-columns: repeat(18, 1fr);
-    grid-template-rows: repeat(7,1fr);
+.grid-container_series {
+    grid-template-columns: repeat(14, minmax(0,1fr));
+    grid-template-rows: repeat(2, minmax(0, 300px));
 }
-#H-He_Gap {
+.Row1_Gap {
     grid-column-start: 2;
-    grid-column-end: 16;}
-#Be-B_Gap {
-    grid-column-start: 3;
-    grid-column-end: 10;}
-#Mg-Al_Gap {
-    grid-column-start: 3;
-    grid-column-end: 10;
+    grid-column-end: 17;
 }
-#Lanthanide_Series {
-    grid-template-columns: repeat(14, 1fr);
-    grid-template-rows: auto;
-}
-#Actinide_Series {
-    grid-template-columns: repeat(14, 1fr);
-    grid-template-rows: auto;
+.RowRow2_3_Gap {
+    grid-column-start: 3;
+    grid-column-end: 12;
 }

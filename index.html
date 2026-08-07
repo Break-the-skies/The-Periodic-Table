@@ -9,17 +9,19 @@
 <body>
     <h1>Your guide to the Periodic Table!</h1>
     <h3>Below is an interactive table.</h3>
-    <div id="Interactive_Table" class="grid-container">
-        <div id="Main_Elements" class="grid-item">
-            <div id="Row 1" class="row">
+    <div id="Main_Elements" class="grid-container_main">
+        <div id="Row 1" class="row">
+            <div id="grid-item">
                 <button type="button" class="Non-metal" id="H">H</button>
-                <button style="grid-column: 2 / span 16;" id="H-He_Gap"></button>
+                <button disabled class="Row1_Gap" id="H-He_Gap"></button>
                 <button type="button" class="Noble gas" id="He">He</button>
             </div>
-            <div id="Row 2" class="row">
+        </div>
+        <div id="Row 2" class="row">
+            <div class="grid-item">
                 <button type="button" class="Alkali metal" id="Li">Li</button>
                 <button type="button" class="Alkali earth metal" id="Be">Be</button>
-                <button style="grid-column: 3 / span 14;" id="Be-B_Gap"></button>
+                <button disabled class="Row2_3_Gap" id="Be-B_Gap"></button>
                 <button type="button" class="Metalloid" id="B">B</button>
                 <button type="button" class="Non-metal" id="C">C</button>
                 <button type="button" class="Non-metal" id="N">N</button>
@@ -27,10 +29,12 @@
                 <button type="button" class="Halogen" id="F">F</button>
                 <button type="button" class="Noble gas" id="Ne">Ne</button>
             </div>
-            <div id="Row 3" class="row">
+        </div>
+        <div id="Row 3" class="row">
+            <div class="grid-item">
                 <button type="button" class="Alkali metal" id="Na">Na</button>
                 <button type="button" class="Alkali earth metal" id="Mg">Mg</button>
-                <button style="grid-column: 3 / span 14;" id="Mg-Al_Gap"></button>
+                <button disabled class="Row2_3_Gap" id="Mg-Al_Gap"></button>
                 <button type="button" class="Post-transition metal" id="Al">Al</button>
                 <button type="button" class="Metalloid" id="Si">Si</button>
                 <button type="button" class="Non-metal" id="P">P</button>
@@ -38,7 +42,9 @@
                 <button type="button" class="Halogen" id="Cl">Cl</button>
                 <button type="button" class="Noble gas" id="Ar">Ar</button>
             </div>
-            <div id="Row 4" class="row">
+        </div>
+        <div id="Row 4" class="row">
+            <div class="grid-item">
                 <button type="button" class="Alkali metal" id="K">K</button>
                 <button type="button" class="Alkali earth metal" id="Ca">Ca</button>
                 <button type="button" class="Transition metal" id="Sc">Sc</button>
@@ -58,7 +64,9 @@
                 <button type="button" class="Halogen" id="Br">Br</button>
                 <button type="button" class="Noble gas" id="Kr">Kr</button>
             </div>
-            <div id="Row 5" class="row">
+        </div>
+        <div id="Row 5" class="row">
+            <div class="grid-item">
                 <button type="button" class="Alkali metal" id="Rb">Rb</button>
                 <button type="button" class="Alkali earth metal" id="Sr">Sr</button>
                 <button type="button" class="Transition metal" id="Y">Y</button>
@@ -78,7 +86,9 @@
                 <button type="button" class="Halogen" id="I">I</button>
                 <button type="button" class="Noble gas" id="Xe">Xe</button>
             </div>
-            <div id="Row 6" class="Row">
+        </div>
+        <div id="Row 6" class="Row">
+            <div class="grid-item">
                 <button type="button" class="Alkali metal" id="Cs">Cs</button>
                 <button type="button" class="Alkali earth metal" id="Ba">Ba</button>
                 <button type="button" class="Transition metal" id="La">La</button>
@@ -98,7 +108,9 @@
                 <button type="button" class="Halogen" id="At">At</button>
                 <button type="button" class="Noble gas" id="Rn">Rn</button>
             </div>
-            <div id="Row 7" class="Row">
+        </div>
+        <div id="Row 7" class="Row">
+            <div class="grid-item">
                 <button type="button" class="Alkali metal" id="Fr">Fr</button>
                 <button type="button" class="Alkali earth metal" id="Ra">Ra</button>
                 <button type="button" class="Transition metal" id="Ac">Ac</button>
@@ -119,37 +131,43 @@
                 <button type="button" class="Noble gas" id="Og">Og</button>
             </div>
         </div>
-        <div id="Lanthanide_Series" class="grid-item">
-            <button type="button" id="Ce">Ce</button>
-            <button type="button" id="Pr">Pr</button>
-            <button type="button" id="Nd">Nd</button>
-            <button type="button" id="Pm">Pm</button>
-            <button type="button" id="Sm">Sm</button>
-            <button type="button" id="Eu">Eu</button>
-            <button type="button" id="Gd">Gd</button>
-            <button type="button" id="Tb">Tb</button>
-            <button type="button" id="Dy">Dy</button>
-            <button type="button" id="Ho">Ho</button>
-            <button type="button" id="Er">Er</button>
-            <button type="button" id="Tm">Tm</button>
-            <button type="button" id="Yb">Yb</button>
-            <button type="button" id="Lu">Lu</button>
+    </div>
+    <div id="Series" class="grid-container_series">
+        <div id="Lanthanide_Series" class="row">
+            <div class="grid-item">
+                <button type="button" id="Ce">Ce</button>
+                <button type="button" id="Pr">Pr</button>
+                <button type="button" id="Nd">Nd</button>
+                <button type="button" id="Pm">Pm</button>
+                <button type="button" id="Sm">Sm</button>
+                <button type="button" id="Eu">Eu</button>
+                <button type="button" id="Gd">Gd</button>
+                <button type="button" id="Tb">Tb</button>
+                <button type="button" id="Dy">Dy</button>
+                <button type="button" id="Ho">Ho</button>
+                <button type="button" id="Er">Er</button>
+                <button type="button" id="Tm">Tm</button>
+                <button type="button" id="Yb">Yb</button>
+                <button type="button" id="Lu">Lu</button>
+            </div>
         </div>
-        <div id="Actinide_Series" class="grid-item">
-            <button type="button" id="Th">Th</button>
-            <button type="button" id="Pa">Pa</button>
-            <button type="button" id="U">U</button>
-            <button type="button" id="Np">Np</button>
-            <button type="button" id="Pu">Pu</button>
-            <button type="button" id="Am">Am</button>
-            <button type="button" id="Cm">Cm</button>
-            <button type="button" id="Bk">Bk</button>
-            <button type="button" id="Cf">Cf</button>
-            <button type="button" id="Es">Es</button>
-            <button type="button" id="Fm">Fm</button>
-            <button type="button" id="Md">Md</button>
-            <button type="button" id="No">No</button>
-            <button type="button" id="Lr">Lr</button>
+        <div id="Actinide_Series" class="row">
+            <div class="grid-item">
+                <button type="button" id="Th">Th</button>
+                <button type="button" id="Pa">Pa</button>
+                <button type="button" id="U">U</button>
+                <button type="button" id="Np">Np</button>
+                <button type="button" id="Pu">Pu</button>
+                <button type="button" id="Am">Am</button>
+                <button type="button" id="Cm">Cm</button>
+                <button type="button" id="Bk">Bk</button>
+                <button type="button" id="Cf">Cf</button>
+                <button type="button" id="Es">Es</button>
+                <button type="button" id="Fm">Fm</button>
+                <button type="button" id="Md">Md</button>
+                <button type="button" id="No">No</button>
+                <button type="button" id="Lr">Lr</button>
+            </div>
         </div>
     </div>
 </body>
