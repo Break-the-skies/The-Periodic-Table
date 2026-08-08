@@ -1,18 +1,40 @@
-.grid_container_main {
-    display: grid;
-    grid-template-columns: repeat(18, minmax(0,1fr));
-    grid-template-rows: repeat(6, minmax(0, 300px));
-}
-.grid-container_series {
-    display: grid;
-    grid-template-columns: repeat(14, minmax(0,1fr));
-    grid-template-rows: repeat(2, minmax(0, 300px));
-}
-.Row1_Gap {
-    grid-column-start: 2;
-    grid-column-end: 17;
-}
-.RowRow2_3_Gap {
-    grid-column-start: 3;
-    grid-column-end: 12;
-}
+table {
+    border: 1px solid;
+    empty-cells: hide;
+    padding: 0px;
+    width: 80%;
+    height: auto;}
+div.Elements_table {overflow-x: auto;}
+th, td {
+    text-align: center;
+    vertical-align: middle;}
+.Alkali_metal {
+    background-color: #540505;
+    color: whitesmoke;}
+.Alkali_earth_metal{
+    background-color: #716000;
+    color: whitesmoke}
+.Transition_metal{
+    background-color: #05053d;
+    color:whitesmoke;}
+.Post-transition_metal{
+    background-color: #004242;
+    color: whitesmoke;}
+.Metalloid{
+    background-color: #123524;
+    color: whitesmoke}
+.Non-metal{
+    background-color: #32174d;
+    color: whitesmoke;}
+.Halogen{
+    background-color: #782600;
+    color:whitesmoke}
+.Noble_gas{
+    background-color: #202020;
+    color:whitesmoke}
+.Lanthanides{
+    background-color: #4e1e2f;
+    color: whitesmoke}
+.Actinides{
+    background-color: #2b0218;
+    color: whitesmoke}
