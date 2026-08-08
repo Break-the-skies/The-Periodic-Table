@@ -1,4 +1,4 @@
-function dark_color() {
+function dark_Color() {
     document.getElementsByTagName("table").style.border-color == "whitesmoke";
     document.getElementsByClassName("Alkali_metal").style.background-color == "#540505";
     document.getElementsByClassName("Alkali_metal").style.color = "whitesmoke";
@@ -20,8 +20,8 @@ function dark_color() {
     document.getElementsByClassName("Lanthanides").style.color = "whitesmoke";
     document.getElementsByClassName("Actinides").style.background-color == "#2b0218";
     document.getElementsByClassName("Actinides").style.color = "whitesmoke";}
-function light_color() {
-        document.getElementsByTagName("table").style.border-color == "black";
+function light_Color() {
+    document.getElementsByTagName("table").style.border-color == "black";
     document.getElementsByClassName("Alkali_metal").style.background-color == "#ff4929";
     document.getElementsByClassName("Alkali_metal").style.color = "black";
     document.getElementsByClassName("Alkali_earth_metal").style.background-color == "#f0e68c";
