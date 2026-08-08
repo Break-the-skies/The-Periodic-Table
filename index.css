@@ -1,6 +1,7 @@
 table {
     border: 1px solid;
     empty-cells: hide;
+    border-spacing: 0px;
     padding: 0px;
     width: 80%;
     height: auto;}
