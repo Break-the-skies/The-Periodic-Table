@@ -1,15 +1,32 @@
+body {
+    background-color: silver;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 table {
     border: 1px solid;
     empty-cells: hide;
     border-spacing: 0px;
     padding: 0px;
     width: 80%;
-    height: auto;}
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 div.Elements_table {overflow-x: auto;}
 th, td {
     text-align: center;
     vertical-align: middle;
     width: auto;}
+#color_scheme {
+    text-align: center;}
+.button:hover {box-shadow: -20px 20px 10px;}
+#Dark {
+    background-color: black;
+    color: whitesmoke}
+#Light {
+    background-color: whitesmoke;
+    color: black;}
+#Main_Elements {
+    border-radius: 25px;
+    background-color: slategray;
+    color: black}
 .Alkali_metal {
     background-color: #540505;
     color: whitesmoke;}
