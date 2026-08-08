@@ -9,158 +9,166 @@
 <body>
     <h1>Your guide to the Periodic Table!</h1>
     <h3>Below is an interactive table.</h3>
+    <br>
     <div id="color_scheme">
         <button id="Dark" type="button" onclick="dark_color()">Dark Mode</button>
         <button id="Light" type="button" onclick="light_color()">Light Mode</button>
         <noscript>Sorry, but dark & light modes don't work here.</noscript>
     </div>
+    <br>
     <div id="Elements_table">
-    <table id="Main_Elements">
-        <tr id="Row_1">
-            <td class="Non-metal"><button type="button" class="Non-metal" id="H">H</button></td>
-            <td colspan="16"></td>
-            <td class="Noble_gas"><button type="button" class="Noble_gas" id="He">He</button></td>
-        </tr>
-        <tr id="Row_2">
-            <td class="Alkali_metal"><button type="button" class="Alkali_metal" id="Li">Li</button></td>
-            <td class="Alkali_earth_metal"><button type="button" class="Alkali_earth_metal" id="Be">Be</button></td>
-            <td colspan="10"></td>
-            <td class="Metalloid"><button type="button" class="Metalloid" id="B">B</button></td>
-            <td class="Non-metal"><button type="button" class="Non-metal" id="C">C</button></td>
-            <td class="Non-metal"><button type="button" class="Non-metal" id="N">N</button></td>
-            <td class="Non-metal"><button type="button" class="Non-metal" id="O">O</button></td>
-            <td class="Halogen"><button type="button" class="Halogen" id="F">F</button></td>
-            <td class="Noble_gas"><button type="button" class="Noble_gas" id="Ne">Ne</button></td>
-        </tr>
-        <tr id="Row_3">
-            <td class="Alkali_metal"><button type="button" class="Alkali_metal" id="Na">Na</button></td>
-            <td class="Alkali_earth_metal"><button type="button" class="Alkali_earth_metal" id="Mg">Mg</button></td>
-            <td colspan="10"></td>
-            <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Al">Al</button></td>
-            <td class="Metalloid"><button type="button" class="Metalloid" id="Si">Si</button></td>
-            <td class="Non-metal"><button type="button" class="Non-metal" id="P">P</button></td>
-            <td class="Non-metal"><button type="button" class="Non-metal" id="S">S</button></td>
-            <td class="Halogen"><button type="button" class="Halogen" id="Cl">Cl</button></td>
-            <td class="Noble_gas"><button type="button" class="Noble_gas" id="Ar">Ar</button></td>
-        </tr>
-        <tr id="Row_4">
-            <td class="Alkali_metal"><button type="button" class="Alkali_metal" id="K">K</button></td>
-            <td class="Alkali_earth_metal"><button type="button" class="Alkali_earth_metal" id="Ca">Ca</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Sc">Sc</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ti">Ti</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="V">V</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Cr">Cr</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Mn">Mn</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Fe">Fe</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Co">Co</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ni">Ni</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Cu">Cu</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Zn">Zn</button></td>
-            <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Ga">Ga</button></td>
-            <td class="Metalloid"><button type="button" class="Metalloid" id="Ge">Ge</button></td>
-            <td class="Metalloid"><button type="button" class="Metalloid" id="As">As</button></td>
-            <td class="Non-metal"><button type="button" class="Non-metal" id="Se">Se</button></td>
-            <td class="Halogen"><button type="button" class="Halogen" id="Br">Br</button></td>
-            <td class="Noble_gas"><button type="button" class="Noble_gas" id="Kr">Kr</button></td>
-        </tr>
-        <tr id="Row_5">
-            <td class="Alkali_metal"><button type="button" class="Alkali_metal" id="Rb">Rb</button></td>
-            <td class="Alkali_earth_metal"><button type="button" class="Alkali_earth_metal" id="Sr">Sr</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Y">Y</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Zr">Zr</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Nb">Nb</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Mo">Mo</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Tc">Tc</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ru">Ru</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Rh">Rh</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Pd">Pd</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ag">Ag</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Cd">Cd</button></td>
-            <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="In">In</button></td>
-            <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Sn">Sn</button></td>
-            <td class="Metalloid"><button type="button" class="Metalloid" id="Sb">Sb</button></td>
-            <td class="Metalloid"><button type="button" class="Metalloid" id="Te">Te</button></td>
-            <td class="Halogen"><button type="button" class="Halogen" id="I">I</button></td>
-            <td class="Noble_gas"><button type="button" class="Noble_gas" id="Xe">Xe</button></td>
-        </tr>
-        <tr id="Row_6">
-            <td class="Alkali_metal"><button type="button" class="Alkali_metal" id="Cs">Cs</button></td>
-            <td class="Alkali_earth_metal"><button type="button" class="Alkali_earth_metal" id="Ba">Ba</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="La">La</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Hf">Hf</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ta">Ta</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="W">W</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Re">Re</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Os">Os</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ir">Ir</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Pt">Pt</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Au">Au</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Hg">Hg</button></td>
-            <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Tl">Tl</button></td>
-            <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Pb">Pb</button></td>
-            <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Bi">Bi</button></td>
-            <td class="Metalloid"><button type="button" class="Metalloid" id="Po">Po</button></td>
-            <td class="Halogen"><button type="button" class="Halogen" id="At">At</button></td>
-            <td class="Noble_gas"><button type="button" class="Noble_gas" id="Rn">Rn</button></td>
-        </tr>
-        <tr id="Row 7">
-            <td class="Alkali_metal"><button type="button" class="Alkali_metal" id="Fr">Fr</button></td>
-            <td class="Alkali_earth_metal"><button type="button" class="Alkali_earth_metal" id="Ra">Ra</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ac">Ac</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Rf">Rf</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Db">Db</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Sg">Sg</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Bh">Bh</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Hs">Hs</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Mt">Mt</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ds">Ds</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Rg">Rg</button></td>
-            <td class="Transition_metal"><button type="button" class="Transition_metal" id="Cn">Cn</button></td>
-            <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Nh">Nh</button></td>
-            <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Fl">Fl</button></td>
-            <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Mc">Mc</button></td>
-            <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Lv">Lv</button></td>
-            <td class="Halogen"><button type="button" class="Halogen" id="Ts">Ts</button></td>
-            <td class="Noble_gas"><button type="button" class="Noble_gas" id="Og">Og</button></td>
-        </tr>
-    </table>
-    <table id="Series">
-        <tr id="Lanthanide_Series">
-            <th id="Lanthanide_label">Lanthanides</th>
-            <td class="Lanthanides"><button type="button" class="Lanthanides" id="Ce">Ce</button></td>
-            <td class="Lanthanides"><button type="button" class="Lanthanides" id="Pr">Pr</button></td>
-            <td class="Lanthanides"><button type="button" class="Lanthanides" id="Nd">Nd</button></td>
-            <td class="Lanthanides"><button type="button" class="Lanthanides" id="Pm">Pm</button></td>
-            <td class="Lanthanides"><button type="button" class="Lanthanides" id="Sm">Sm</button></td>
-            <td class="Lanthanides"><button type="button" class="Lanthanides" id="Eu">Eu</button></td>
-            <td class="Lanthanides"><button type="button" class="Lanthanides" id="Gd">Gd</button></td>
-            <td class="Lanthanides"><button type="button" class="Lanthanides" id="Tb">Tb</button></td>
-            <td class="Lanthanides"><button type="button" class="Lanthanides" id="Dy">Dy</button></td>
-            <td class="Lanthanides"><button type="button" class="Lanthanides" id="Ho">Ho</button></td>
-            <td class="Lanthanides"><button type="button" class="Lanthanides" id="Er">Er</button></td>
-            <td class="Lanthanides"><button type="button" class="Lanthanides" id="Tm">Tm</button></td>
-            <td class="Lanthanides"><button type="button" class="Lanthanides" id="Yb">Yb</button></td>
-            <td class="Lanthanides"><buttom type="button" class="Lanthanides" id="Lu">Lu</buttom></td>
-        </tr>
-        <tr id="Actinide_Series">
-            <th id="Actinide_label">Actinides</th>
-            <td class="Actinides"><button type="button" class="Actinides" id="Th">Th</button></td>
-            <td class="Actinides"><button type="button" class="Actinides" id="Pa">Pa</button></td>
-            <td class="Actinides"><button type="button" class="Actinides" id="U">U</button></td>
-            <td class="Actinides"><button type="button" class="Actinides" id="Np">Np</button></td>
-            <td class="Actinides"><button type="button" class="Actinides" id="Pu">Pu</button></td>
-            <td class="Actinides"><button type="button" class="Actinides" id="Am">Am</button></td>
-            <td class="Actinides"><button type="button" class="Actinides" id="Cm">Cm</button></td>
-            <td class="Actinides"><button type="button" class="Actinides" id="Bk">Bk</button></td>
-            <td class="Actinides"><button type="button" class="Actinides" id="Cf">Cf</button></td>
-            <td class="Actinides"><button type="button" class="Actinides" id="Es">Es</button></td>
-            <td class="Actinides"><button type="button" class="Actinides" id="Fm">Fm</button></td>
-            <td class="Actinides"><button type="button" class="Actinides" id="Md">Md</buttom></td>
-            <td class="Actinides"><button type="button" class="Actinides" id="No">No</button></td>
-            <td class="Actinides"><button type="button" class="Actinides" id="Lr">Lr</button></td>
-        </tr>
-    </table>
+        <br>
+        <br>
+        <table id="Main_Elements">
+            <tr id="Row_1">
+                <td class="Non-metal"><button type="button" class="Non-metal" id="H">H</button></td>
+                <td colspan="16"></td>
+                <td class="Noble_gas"><button type="button" class="Noble_gas" id="He">He</button></td>
+            </tr>
+            <tr id="Row_2">
+                <td class="Alkali_metal"><button type="button" class="Alkali_metal" id="Li">Li</button></td>
+                <td class="Alkali_earth_metal"><button type="button" class="Alkali_earth_metal" id="Be">Be</button></td>
+                <td colspan="10"></td>
+                <td class="Metalloid"><button type="button" class="Metalloid" id="B">B</button></td>
+                <td class="Non-metal"><button type="button" class="Non-metal" id="C">C</button></td>
+                <td class="Non-metal"><button type="button" class="Non-metal" id="N">N</button></td>
+                <td class="Non-metal"><button type="button" class="Non-metal" id="O">O</button></td>
+                <td class="Halogen"><button type="button" class="Halogen" id="F">F</button></td>
+                <td class="Noble_gas"><button type="button" class="Noble_gas" id="Ne">Ne</button></td>
+            </tr>
+            <tr id="Row_3">
+                <td class="Alkali_metal"><button type="button" class="Alkali_metal" id="Na">Na</button></td>
+                <td class="Alkali_earth_metal"><button type="button" class="Alkali_earth_metal" id="Mg">Mg</button></td>
+                <td colspan="10"></td>
+                <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Al">Al</button></td>
+                <td class="Metalloid"><button type="button" class="Metalloid" id="Si">Si</button></td>
+                <td class="Non-metal"><button type="button" class="Non-metal" id="P">P</button></td>
+                <td class="Non-metal"><button type="button" class="Non-metal" id="S">S</button></td>
+                <td class="Halogen"><button type="button" class="Halogen" id="Cl">Cl</button></td>
+                <td class="Noble_gas"><button type="button" class="Noble_gas" id="Ar">Ar</button></td>
+            </tr>
+            <tr id="Row_4">
+                <td class="Alkali_metal"><button type="button" class="Alkali_metal" id="K">K</button></td>
+                <td class="Alkali_earth_metal"><button type="button" class="Alkali_earth_metal" id="Ca">Ca</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Sc">Sc</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ti">Ti</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="V">V</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Cr">Cr</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Mn">Mn</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Fe">Fe</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Co">Co</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ni">Ni</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Cu">Cu</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Zn">Zn</button></td>
+                <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Ga">Ga</button></td>
+                <td class="Metalloid"><button type="button" class="Metalloid" id="Ge">Ge</button></td>
+                <td class="Metalloid"><button type="button" class="Metalloid" id="As">As</button></td>
+                <td class="Non-metal"><button type="button" class="Non-metal" id="Se">Se</button></td>
+                <td class="Halogen"><button type="button" class="Halogen" id="Br">Br</button></td>
+                <td class="Noble_gas"><button type="button" class="Noble_gas" id="Kr">Kr</button></td>
+            </tr>
+            <tr id="Row_5">
+                <td class="Alkali_metal"><button type="button" class="Alkali_metal" id="Rb">Rb</button></td>
+                <td class="Alkali_earth_metal"><button type="button" class="Alkali_earth_metal" id="Sr">Sr</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Y">Y</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Zr">Zr</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Nb">Nb</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Mo">Mo</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Tc">Tc</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ru">Ru</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Rh">Rh</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Pd">Pd</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ag">Ag</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Cd">Cd</button></td>
+                <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="In">In</button></td>
+                <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Sn">Sn</button></td>
+                <td class="Metalloid"><button type="button" class="Metalloid" id="Sb">Sb</button></td>
+                <td class="Metalloid"><button type="button" class="Metalloid" id="Te">Te</button></td>
+                <td class="Halogen"><button type="button" class="Halogen" id="I">I</button></td>
+                <td class="Noble_gas"><button type="button" class="Noble_gas" id="Xe">Xe</button></td>
+            </tr>
+            <tr id="Row_6">
+                <td class="Alkali_metal"><button type="button" class="Alkali_metal" id="Cs">Cs</button></td>
+                <td class="Alkali_earth_metal"><button type="button" class="Alkali_earth_metal" id="Ba">Ba</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="La">La</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Hf">Hf</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ta">Ta</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="W">W</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Re">Re</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Os">Os</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ir">Ir</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Pt">Pt</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Au">Au</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Hg">Hg</button></td>
+                <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Tl">Tl</button></td>
+                <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Pb">Pb</button></td>
+                <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Bi">Bi</button></td>
+                <td class="Metalloid"><button type="button" class="Metalloid" id="Po">Po</button></td>
+                <td class="Halogen"><button type="button" class="Halogen" id="At">At</button></td>
+                <td class="Noble_gas"><button type="button" class="Noble_gas" id="Rn">Rn</button></td>
+            </tr>
+            <tr id="Row 7">
+                <td class="Alkali_metal"><button type="button" class="Alkali_metal" id="Fr">Fr</button></td>
+                <td class="Alkali_earth_metal"><button type="button" class="Alkali_earth_metal" id="Ra">Ra</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ac">Ac</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Rf">Rf</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Db">Db</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Sg">Sg</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Bh">Bh</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Hs">Hs</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Mt">Mt</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Ds">Ds</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Rg">Rg</button></td>
+                <td class="Transition_metal"><button type="button" class="Transition_metal" id="Cn">Cn</button></td>
+                <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Nh">Nh</button></td>
+                <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Fl">Fl</button></td>
+                <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Mc">Mc</button></td>
+                <td class="Post-transition_metal"><button type="button" class="Post-transition_metal" id="Lv">Lv</button></td>
+                <td class="Halogen"><button type="button" class="Halogen" id="Ts">Ts</button></td>
+                <td class="Noble_gas"><button type="button" class="Noble_gas" id="Og">Og</button></td>
+            </tr>
+        </table>
+        <br>
+        <table id="Series">
+            <tr id="Lanthanide_Series">
+                <th class="Lanthanides" id="Lanthanide_label">Lanthanides</th>
+                <td class="Lanthanides"><button type="button" class="Lanthanides" id="Ce">Ce</button></td>
+                <td class="Lanthanides"><button type="button" class="Lanthanides" id="Pr">Pr</button></td>
+                <td class="Lanthanides"><button type="button" class="Lanthanides" id="Nd">Nd</button></td>
+                <td class="Lanthanides"><button type="button" class="Lanthanides" id="Pm">Pm</button></td>
+                <td class="Lanthanides"><button type="button" class="Lanthanides" id="Sm">Sm</button></td>
+                <td class="Lanthanides"><button type="button" class="Lanthanides" id="Eu">Eu</button></td>
+                <td class="Lanthanides"><button type="button" class="Lanthanides" id="Gd">Gd</button></td>
+                <td class="Lanthanides"><button type="button" class="Lanthanides" id="Tb">Tb</button></td>
+                <td class="Lanthanides"><button type="button" class="Lanthanides" id="Dy">Dy</button></td>
+                <td class="Lanthanides"><button type="button" class="Lanthanides" id="Ho">Ho</button></td>
+                <td class="Lanthanides"><button type="button" class="Lanthanides" id="Er">Er</button></td>
+                <td class="Lanthanides"><button type="button" class="Lanthanides" id="Tm">Tm</button></td>
+                <td class="Lanthanides"><button type="button" class="Lanthanides" id="Yb">Yb</button></td>
+                <td class="Lanthanides"><buttom type="button" class="Lanthanides" id="Lu">Lu</buttom></td>
+            </tr>
+            <tr id="Actinide_Series">
+                <th class="Actinides" id="Actinide_label">Actinides</th>
+                <td class="Actinides"><button type="button" class="Actinides" id="Th">Th</button></td>
+                <td class="Actinides"><button type="button" class="Actinides" id="Pa">Pa</button></td>
+                <td class="Actinides"><button type="button" class="Actinides" id="U">U</button></td>
+                <td class="Actinides"><button type="button" class="Actinides" id="Np">Np</button></td>
+                <td class="Actinides"><button type="button" class="Actinides" id="Pu">Pu</button></td>
+                <td class="Actinides"><button type="button" class="Actinides" id="Am">Am</button></td>
+                <td class="Actinides"><button type="button" class="Actinides" id="Cm">Cm</button></td>
+                <td class="Actinides"><button type="button" class="Actinides" id="Bk">Bk</button></td>
+                <td class="Actinides"><button type="button" class="Actinides" id="Cf">Cf</button></td>
+                <td class="Actinides"><button type="button" class="Actinides" id="Es">Es</button></td>
+                <td class="Actinides"><button type="button" class="Actinides" id="Fm">Fm</button></td>
+                <td class="Actinides"><button type="button" class="Actinides" id="Md">Md</buttom></td>
+                <td class="Actinides"><button type="button" class="Actinides" id="No">No</button></td>
+                <td class="Actinides"><button type="button" class="Actinides" id="Lr">Lr</button></td>
+            </tr>
+        </table>
+        <br>
+        <br>
     </div>
+    <br>
     <iframe width="400" height="300" src="https://www.youtube.com/embed/rz4Dd1I_fX0?si=BQdrSFpwyFss-eqBcontrols=0"></iframe>
 </body>
 </html>
