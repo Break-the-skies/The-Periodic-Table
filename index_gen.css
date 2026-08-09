@@ -1,0 +1,31 @@
+body {
+    background-color: silver;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+table {
+    border: 1px solid;
+    empty-cells: hide;
+    width: 80%;
+    padding: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    aspect-ratio: 1;}
+div.Elements_table {overflow-x: auto;}
+th, td {
+    text-align: center;
+    vertical-align: middle;
+    width: auto;}
+#color_scheme {
+    text-align: center;}
+.button:hover {box-shadow: -20px 20px 10px;}
+#Dark_button {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+#Dark_button {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.button {border: 0px;}
+#Main_Elements {
+    border-radius: 25px;
+    background-color: slategray;
+    color: black}

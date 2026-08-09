@@ -1,0 +1,32 @@
+table {
+    border-color: whitesmoke;}
+.Alkali_metal {
+    background-color: #540505;
+    color: whitesmoke;}
+.Alkali_earth_metal{
+    background-color: #716000;
+    color: whitesmoke}
+.Transition_metal{
+    background-color: #05053d;
+    color:whitesmoke;}
+.Post-transition_metal{
+    background-color: #004242;
+    color: whitesmoke;}
+.Metalloid{
+    background-color: #123524;
+    color: whitesmoke}
+.Non-metal{
+    background-color: #32174d;
+    color: whitesmoke;}
+.Halogen{
+    background-color: #782600;
+    color:whitesmoke}
+.Noble_gas{
+    background-color: #202020;
+    color:whitesmoke}
+.Lanthanides{
+    background-color: #4e1e2f;
+    color: whitesmoke}
+.Actinides{
+    background-color: #2b0218;
+    color: whitesmoke}
