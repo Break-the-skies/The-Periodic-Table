@@ -4,7 +4,7 @@ body {
 table {
     border: 1px solid;
     empty-cells: hide;
-    width: 80%;
+    width: 100%;
     padding: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     aspect-ratio: 1;}
