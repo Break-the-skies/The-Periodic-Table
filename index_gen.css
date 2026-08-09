@@ -4,7 +4,7 @@ body {
 table {
     border: 1px solid;
     empty-cells: hide;
-    width: 100%;
+    width: 80%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     aspect-ratio: 1;}
 div.Elements_table {overflow-x: auto;}
@@ -17,13 +17,13 @@ th, td {
 .button:hover {box-shadow: -20px 20px 10px;}
 #Dark_button {
     background-color: black;
-    color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-#Dark_button {
+    color: whitesmoke;}
+#Light_button {
     background-color: whitesmoke;
-    color: black;
+    color: black;}
+.button {
+    border: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-.button {border: 0px;}
 #Main_Elements {
     border-radius: 25px;
     background-color: slategray;
