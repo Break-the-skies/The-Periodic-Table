@@ -15,11 +15,11 @@ th, td {
 #color_scheme {
     text-align: center;}
 .button:hover {box-shadow: -20px 20px 10px;}
-#Dark {
+#Dark_button {
     background-color: black;
     color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-#Light {
+#Dark_button {
     background-color: whitesmoke;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
