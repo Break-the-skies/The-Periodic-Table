@@ -6,7 +6,6 @@ table {
     empty-cells: hide;
     width: 80%;
     aspect-ratio: 1/1;
-    height: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 div.Elements_table {overflow-x: auto;}
 th, td {
