@@ -1,5 +1,5 @@
-const dark_button = document.getElementById("Dark");
-const light_button = document.getElementById("Light");
+const dark_button = document.getElementById("Dark_button");
+const light_button = document.getElementById("Light_button");
 const table_general = document.getElementsByTagName("table");
 const alkali = document.getElementsByClassName("Alkali_metal");
 const alkali_earth = document.getElementsByClassName("Alkali_earth_metal");
@@ -12,8 +12,11 @@ const noble_gas = document.getElementsByClassName("Noble_gas");
 const lanth = document.getElementsByClassName("Lanthanides");
 const actin = document.getElementsByClassName("Actinides");
 
-dark_button.addEventListener("click",dark_Color);
-light_button.addEventListener("click",light_Color);
+dark_button.addEventListener("click", function(){ alert("Hello World!"); });
+light_button.addEventListener("click", function(){ alert("Hello World!"); });
+
+/*dark_button.addEventListener("click",dark_Color);
+light_button.addEventListener("click",light_Color);*/
 function dark_Color() {
     table_general.style.border-color == "whitesmoke";
     alkali.style.background-color == "#540505";
